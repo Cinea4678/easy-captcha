@@ -8,7 +8,7 @@ edition = "2021"
 [dependencies]
 tokio = { version = "1", features = ["full"] }
 axum = "0.7.4"
-tower-sessions = "0.10.1"
+tower-sessions = "0.12.2"
 time = "0.3.34"
 easy-captcha = { path = "../..", features = ["axum-tower-sessions"] }
 async-trait = "0.1.77"
